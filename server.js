@@ -42,7 +42,7 @@ if (detections && detections.length > 0) {
 }
 
 // Convert an image file to Base64
-const imageFilePath = 'kalana.jpeg'; //sa5.jpeg, amara2, 
+const imageFilePath = 'sample_images/sa5.jpeg'; //sa5.jpeg, amara2, 
 const base64Image = fs.readFileSync(imageFilePath).toString('base64');
 
 // Detect text in the Base64-encoded image
